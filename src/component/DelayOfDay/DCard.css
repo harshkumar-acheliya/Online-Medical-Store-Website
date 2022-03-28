@@ -1,0 +1,30 @@
+.day-container{
+    width: 17rem;
+    height: 27rem;
+}
+.pic1{
+    border: 0.4rem solid hsl(182deg 39% 75%);
+    border-radius: 1rem;
+    padding: 3rem;
+    background-color: white;
+}
+.pic1 img{
+    width: 10rem;
+}
+.day-heading{
+    font-family: sans-serif;
+    font-size: .8rem;
+    margin: 1rem 0;
+    color: hsl(0deg 1% 18%);
+}
+
+.day-cancelPrice{
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    margin: 0.8rem 0;
+    color: hsl(0deg 0% 50%);
+}
+.day-price{
+    font-family: sans-serif;
+    color: hsl(0deg 1% 18%);
+}

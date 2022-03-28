@@ -1,0 +1,40 @@
+.category-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 0.1rem solid;
+    margin: 2rem;
+    border-radius: 2rem;
+}
+.upper-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    height: 7rem;
+}
+.category-heading h2{
+    font-size: 2.5rem;
+    font-family: sans-serif;
+}
+#heading23{
+    background: hsl(205deg 75% 69%);
+    width: 22rem;
+    height: 0.3rem;
+    margin-top: 1rem;
+}
+.category-link a{
+    font-size: 2rem;
+    color: hsl(0deg 0% 0%);
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+.downward-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+    height: 50rem;
+}

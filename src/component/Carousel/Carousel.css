@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.C-container{
+    height: 37rem;
+    margin-top: 1rem;
+}
+
+.carousel img{
+    width: 100%;
+    height: 37rem;
+}
+.child-1{
+    display: flex;
+    position: relative;
+    top: -22rem;
+    justify-content: flex-start;
+}
+.child-2{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -29rem;
+}
+.c-btn{
+    display: flex;
+    justify-content: center;
+    background-color: hsl(224deg 68% 43%);
+    width: 10rem;
+    padding: 0.7rem 1.7rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: relative;
+    bottom: 32rem;
+    left: 17rem;
+}
+.c-btn a{
+    text-decoration: none;
+    color: hsl(0deg 0% 100%);
+}
+.c-off{
+    color: hsl(0deg 0% 100%);
+    position: relative;
+    left: 17rem;
+    bottom: 40rem;
+    font-size: 1.3rem;
+    width: 15rem;
+}

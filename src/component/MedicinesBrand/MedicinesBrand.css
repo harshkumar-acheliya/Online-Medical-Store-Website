@@ -1,0 +1,12 @@
+.med-container{
+    margin: 5rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.medicine-card1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}

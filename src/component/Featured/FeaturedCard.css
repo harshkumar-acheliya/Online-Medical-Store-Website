@@ -1,0 +1,17 @@
+.featuredCard-cont{
+    display: flex;
+    flex-direction: column;
+    border: 0.4rem solid hsl(219deg 86% 72%);
+    width: 17rem;
+    height: 26rem;
+    border-radius: 1rem;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    background-color: white;
+}
+
+.featuredCard-Pic img{
+    width: 16rem;
+}

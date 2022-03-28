@@ -1,0 +1,31 @@
+.category-card-cont{
+    width: 42rem;
+    box-shadow: -1rem -1rem 3rem #959292;
+    border-radius: 1rem;
+    background: url("./category1.svg") right no-repeat;
+    height: 17rem;
+    
+}
+.cat-card-item{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 17rem;
+}
+.l-cat-heading h2{
+    font-size: 2rem;
+    font-family: sans-serif;
+    text-align: center;
+}
+.l-cat-subheading h3{
+    color: hsl(216deg 96% 49%);
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top:3rem;
+}
+.r-cat-image img{
+    width: 17rem;
+}

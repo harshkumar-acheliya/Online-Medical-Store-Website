@@ -1,0 +1,54 @@
+.delay-container{
+    background-image: linear-gradient(
+180deg, hsl(0deg 86% 92%), hsl(0deg 0% 0% / 0%));
+}
+.delay-heading{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: center;
+    height: 10rem;
+    width: max-content;
+    
+}
+.delay-headingcont{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#heading1::after{
+    content: " | ";
+    display: inline-block;
+    margin: 0 1rem;
+}
+#heading1{
+    font-size: 4rem;
+    font-family: sans-serif;
+    color: hsl(0deg 1% 25%);
+}
+#heading2{
+    font-size: 2rem;
+    font-family: sans-serif;
+    color: hsl(0deg 1% 25%);
+    height: 2rem;
+}
+.delay-icon{
+    display: flex;
+    justify-content: space-around;
+    width: 20rem;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+
+}
+.delay-day-card{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}

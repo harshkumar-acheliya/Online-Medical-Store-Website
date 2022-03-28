@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap');
+body{
+    height: 100%;
+}
+.signup-container{
+    font-family: 'Readex Pro', sans-serif;
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+.l-signup-container
+{   border-bottom: 35vmax solid hsl(240deg 100% 50%);
+    border-right: 20vmax solid hsl(0deg 0% 0% / 0%);
+    height: 0;
+    width: 50%;
+    align-items: center;
+    
+}
+
+.l-signup-container img{
+    width: 60%;
+    max-height: 30vmax;
+    width: 60%;
+    max-height: 30vmax;
+    margin: 13% 0% 0% 15%;
+}
+.r-signup-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 50%;
+    align-content: center;
+    align-items: flex-start;
+    padding-left: 10%;
+}
+.r-upper-signup{
+
+    font-size: 1rem;
+    font-family: 'Readex Pro';
+    margin: 0 1% 1% 0;
+}
+.r-middle-signup{
+    margin-bottom: 3%;
+    width: 54%;
+}
+.signup-label{
+    font-size: 1.5rem;
+    font-family: 'Readex Pro';
+}
+.r-form-signup{
+    width: 60%;
+    margin: 0 0 1% 0;
+}
+#phnNumber{
+    min-height: 2vmax;
+    width: 85%;
+    text-align: center;
+    margin-bottom: 1%;
+    border-radius: 0.5rem;
+}
+.form-input-field{
+    min-height: 2vmax;
+    width: 85%;
+    text-align: center;
+    margin-bottom: 1%;
+    border-radius: 0.5rem;
+}
+
+#signup-change-text input {
+    outline: none;
+    color: hsl(0deg 100% 50%);
+    font-size: inherit;
+    background: none;
+    border: medium none currentColor;
+}
+.r-inputField{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.inputField{
+    
+    width: 5%;
+    background: hsl(244deg 80% 72% / 10%);
+    min-height: 2vmax;
+    border: 0.1rem solid hsl(235deg 72% 53%);
+    border-radius: 0.5rem;
+    margin: 1% 4.3% 1% 0;
+    text-align: center;
+    font-family: 'Readex Pro', sans-serif;
+}
+.r-text2-signup-container{
+    width: 58%;
+    text-align: end;
+    color: hsl(0deg 100% 50%);
+}
+.r-signup-btn{
+    width: 52%;
+    min-height: 2vmax;
+    background: hsl(240deg 100% 50%);
+    color: hsl(39deg 77% 83%);
+    font-size: 1.5rem;
+    margin: 3% 0;
+}
+#verify-btn:hover{
+background: linear-gradient(181deg, hsl(238deg 100% 50%), hsl(202deg 93% 52%)); 
+color: whitesmoke;
+cursor: pointer;
+}
+.error{
+    color: red;
+}
+
+@media (max-width: 950px) {
+    
+    .l-signup-container{
+        border: none;
+        height: 100%;
+        width: 100%;
+        padding: 10% 0 10% 0;
+        background: hsl(240deg 100% 50%);
+    }
+    .r-signup-container{
+        
+        width: 75%;
+    }
+    .r-middle-signup {
+        font-size: 1.1rem;
+    }
+    #phnNumber{
+        min-height: 3vmax;
+    }
+    
+    .inputField{
+        width: 5%;
+        height: 4vmax;
+    }
+  }

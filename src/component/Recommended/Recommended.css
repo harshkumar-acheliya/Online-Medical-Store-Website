@@ -1,0 +1,21 @@
+
+.recc-container{
+    background-image: linear-gradient(
+        184deg, hsl(214deg 73% 88%), hsl(0deg 0% 0% / 0%));
+}
+.recc-heading{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#heading11{
+    font-size: 4rem;
+    font-family: sans-serif;
+    color: hsl(0deg 1% 25%);
+}
+#heading23{
+    background: hsl(205deg 75% 69%);
+    width: 43rem;
+    height: 0.2rem;
+}

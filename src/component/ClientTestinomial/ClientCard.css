@@ -1,0 +1,36 @@
+.client-card-container{
+    width: 26rem;
+    height: 26rem;
+    background-color: hsl(0deg 0% 100%);
+    border-radius: 2rem;
+    box-shadow: 0.1rem 0.2rem 4rem #55545461;
+}
+.client-card{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 3rem;
+}
+.client-card-heading h3{
+    font-size: 1.6rem;
+    font-family: sans-serif;
+}
+.client-card-subheading h4{
+    color: hsl(0deg 4% 70%);
+    font-family: sans-serif;
+    margin: 0.6rem 0;
+}
+.client-card-body p{
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    margin-bottom: 2rem;
+    margin-top: 0.6rem;
+}
+.client-card-footer{
+    display: flex;
+    align-items: center;
+}
+.card-star-icon{
+    margin: 0 .2rem;
+}

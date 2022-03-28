@@ -1,0 +1,19 @@
+.featured-heading{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.featured-container{
+    position: relative;
+    background: url("./bg11.svg") top right,url("./bg22.svg") bottom left;
+    background-repeat: no-repeat;
+    height: 45rem;
+    
+}
+#heading234{
+    background: hsl(205deg 75% 69%);
+    width: 32rem;
+    height: 0.2rem;
+}

@@ -1,0 +1,93 @@
+.d-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 65rem;
+}
+.ld-part{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.rd-part{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+.d-heading h3{
+    font-size: 4rem;
+    font-family: sans-serif;
+    color: hsl(0deg 1% 21%);
+}
+.d-links{
+    display: flex;
+    margin: 3rem 0;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    
+}
+.d1-links{
+    border-radius: 1rem;
+}
+
+.d1-links ul{
+    display: flex;
+    background-color: hsl(224deg 68% 43%);
+    align-items: center;
+    justify-content: space-around;
+    width: 27rem;
+    border-radius: 1rem;
+}
+.d2-links{
+    margin: 0 0 0 4rem;
+}
+.d2-links ul{
+    display: flex;
+    background-color: hsl(224deg 68% 43%);
+    align-items: center;
+    justify-content: space-around;
+    width: 27rem;
+    border-radius: 1rem;
+    
+}
+.d-btn{
+    color: white;
+    font-size: 2rem;
+    padding: 2.8rem;
+}
+.d-btn-icon{
+    padding:0 6rem;
+}
+.d-subheading h4{
+    color: hsl(0deg 1% 20%);
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+.takeNum{
+    border-radius: 1rem;
+    width: 60%;
+    border: .2rem solid hsl(235deg 83% 62%);
+    display: flex;
+    margin-top: 2rem;
+    padding: 1rem 0;
+    justify-content: flex-start;
+    align-items: center;
+}
+.callIcon{
+    margin-left: 4rem;
+}
+.d-input{
+    margin-left: 4rem;
+}
+#number{
+    font-size: 2rem;
+    font-family: sans-serif;
+    border: none;
+    outline: none;
+}
